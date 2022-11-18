@@ -34,7 +34,7 @@ def defence(char_name: str, char_class: str) -> str:
 
 
 def special(char_name: str, char_class: str) -> str:
-    """Choose a person to play."""
+    """Calculate super power."""
     art: int = 0
     if char_class == 'warrior':
         art = 80 + 25
